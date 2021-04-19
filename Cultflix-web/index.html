@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login</title>
+  </head>
+  <body class="bg-filmes">
+    <div class="container-fluid">
+      <header class="row">
+        <img src="assets/logo.png" alt="Logotipo CultFlix" />
+      </header>
+      <div id="caixa-login" class="col-4 offset-4">
+        <h1 class="text-white">Entrar</h1>
+        <br/>
+        <form>
+          <input
+            type="email"
+            class="form-control form-control-lg"
+            placeholder="Email ou número de telefone"
+            style="background-color: #3c3c3c; border: none;"
+          />
+          <br />
+          <input
+            type="password"
+            class="form-control form-control-lg"
+            placeholder="Senha"
+            style="background-color: #3c3c3c; border: none"
+          />
+          <br />
+          <button class="btn btn-lg btn-block btn-info">Entrar</button>
+          <div class="row mt-4">
+            <div class="col text-muted">
+              <input type="checkbox" /> Lembrar de mim.
+            </div>
+            <div class="col text-right">
+              <a href="#" class="text-muted">Precisa de ajuda?</a>
+            </div>
+          </div>
+        </form>
+
+        <div class="row mt-4">
+          <div class="col text-muted">
+            <img src="assets/image 1.png" alt="Facebook" /><a
+              href="#"
+              class="text-muted"
+            >
+              Conectar com o Facebook</a
+            >
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col text-muted">
+            Novo por aqui?<a href="#" class="text-white"> Assine agora.</a>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div id="texto-captcha" class="col text-muted">
+            Esta página é protegida pelo Google reCAPTCHA para garantir que você
+            não é um robô.<a href="#" class="text-info"> Saiba mais.</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+  </body>
+</html>
