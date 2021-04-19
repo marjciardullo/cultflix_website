@@ -1,6 +1,6 @@
 # cultflix_website
 
-O Cultflix foi criado após estudos realizados na plataforma Lab Irmão Mais Velho. Nele foram utilizados bootstrap, css intermediário e html.
+O Cultflix foi criado após estudos realizados na plataforma Lab Irmão Mais Velho. Nele foram utilizados bootstrap, css intermediário e html. O design é de autoria própria, com exceção da imagem de fundo da parte de login
 
 ![Login](https://user-images.githubusercontent.com/82274021/115308727-8e765d00-a141-11eb-84fe-774425d2bbdf.png)
 
